@@ -1,0 +1,35 @@
+#!/usr/bin/env python3 
+
+# Author: Mbonu Chinedum Endurance 
+# Company: 
+# Description: 
+
+# Importing the necessary modules 
+import matplotlib.pyplot as plt 
+import seaborn as sns 
+import os 
+
+# Defining a class to hold different methods of plotting a graph 
+class Draw():
+    def __init__(self, x_axis, y_axis, time, image_check, dataframe):
+        self.x_axis = x_axis 
+        self.y_axis = y_axis 
+        self.time = time 
+        self.image_check = image_check 
+        self.dataframe = dataframe 
+
+    # Creating a method to draw a count plot 
+    def count_plot(self):
+        pass
+
+    # Creating a method to draw a bar plot 
+    def bar_plot(self):
+        pass
+
+    # Creating a methon to draw a scatter plot 
+    def scatter_plot(self):
+        pass 
+
+    # Creating a method for drawing a pie plot 
+    def pie_plot(self):
+        pass 
